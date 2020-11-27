@@ -33,7 +33,8 @@ public class ItBlogProducerApp {
                 System.out.println("СООБЩЕНИЕ ОТПРАВЛЕНО");
         }
 
-
+        connection.close();
+        readerConsole.close();
     }
 
 }
